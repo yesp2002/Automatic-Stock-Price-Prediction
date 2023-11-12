@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 * * * *'  # Run every hour at the start of the hour
+    - cron: '0 10 * * *'  # Run every hour at the start of the hour
 
 jobs:
   build:
